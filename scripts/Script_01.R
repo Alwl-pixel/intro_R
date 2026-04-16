@@ -1,4 +1,5 @@
 # Load the readr package (used for reading CSV files)
+install.packages("readr")
 library(readr)
 
 # Read in the patients dataset from the data/ folder

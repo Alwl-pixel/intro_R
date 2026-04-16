@@ -2,8 +2,9 @@
 # Put CSVs in your project folder: data/
 
 # 0) packages
+install.packages("tidyverse")
 library(tidyverse)
-library(lubridate)
+
 
 # 1) import
 patients <- read_csv("data/patients.csv")
